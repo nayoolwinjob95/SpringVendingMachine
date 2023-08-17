@@ -1,0 +1,87 @@
+.header {
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 17px;
+	font-weight: bold;
+	height: 45px;
+	background-color: #87bbe6;
+	line-height: 45px;
+	margin-bottom: 0;
+}
+
+.container {
+	transform: translateY(-50px);
+}
+
+.cash-input {
+	width: 250px;
+}
+
+.group {
+	width: 650px;
+	height: 300px;
+	border: 2px solid #D8D8D8;
+	border-radius: 7px;
+}
+
+.cash-label {
+	font-size: 12px;
+}
+
+.coca {
+	height: 35px;
+}
+
+.coca-text {
+	display: block;
+	width: 120px;
+	font-size: 12px;
+}
+
+button {
+	background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+	appearance: none;
+	margin: 0;
+}
+
+input[type=number] {
+	appearance: textfield;
+}
+
+.checkbox-round {
+	width: 1.3em;
+	height: 1.3em;
+	background-color: white;
+	border-radius: 50%;
+	vertical-align: middle;
+	border: 1px solid #ddd;
+	appearance: none;
+	-webkit-appearance: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.checkbox-round:checked {
+	background-color: #87bbe6;
+}
+
+@media only screen and (max-width: 770px) {
+	.group {
+		width: 450px;
+		height: 450px;
+	}
+	.coca-text {
+		font-size: 10px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.group {
+		width: 400px;
+		height: 500px;
+	}
+}
